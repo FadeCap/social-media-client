@@ -24,7 +24,7 @@ Tests
 
 Execute the following commands for different types of tests:
 
-    Unit Tests: Run unit tests using Jest:
+Unit Tests: Run unit tests using Jest:
 
 ```
 npm run test-unit
