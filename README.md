@@ -1,8 +1,8 @@
-#Workflow CA
+Workflow CA
 
 Welcome to Workflow CA, a project aimed creating a well functioning workflow for projects
 
-##To get started, follow these steps:
+To get started, follow these steps:
 
 ```
 npm install
@@ -20,7 +20,7 @@ Start Development Server: Launch a live development server and initiate Sass wat
     npm start
 ```
 
-##Tests
+Tests
 
 Execute the following commands for different types of tests:
 
