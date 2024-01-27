@@ -1,15 +1,49 @@
 #Workflow CA
 
-#Build options
+Welcome to Workflow CA, a project aimed creating a well functioning workflow for projects
 
-npm i - Install all node packages etc
+##To get started, follow these steps:
 
-npm build - runs sass and compiles it to css
+```
+npm install
+```
 
-npm start - live server & sass --watch wil start
+Build Project: Compile Sass files to CSS with the following command:
 
-#Tests
+```
+npm run build
+```
 
-npm run test-unit - Unit test
+Start Development Server: Launch a live development server and initiate Sass watch for automatic updates:
 
-npm run test-e2e - Will open cypress GUI, for testing end to end
+```
+    npm start
+```
+
+##Tests
+
+Execute the following commands for different types of tests:
+
+    Unit Tests: Run unit tests using Jest:
+
+```
+npm run test-unit
+```
+
+End-to-End Tests: Utilize Cypress for end-to-end testing. Launch Cypress GUI with:
+
+```
+    npm run test-e2e
+```
+
+
+#Configuration
+
+For customization and configuration, please refer to the following files:
+
+    package.json: Manage project dependencies and scripts.
+    webpack.config.js: Configure webpack settings for bundling and optimization.
+    .babelrc: Customize Babel configurations for JavaScript transpilation.
+    jest.config.js: Configure Jest for unit testing.
+    cypress.json: Cypress configuration file.
+    .huskyrc.json: Husky configuration for Git hooks.
